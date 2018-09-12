@@ -1,0 +1,10 @@
+{
+    "apps": [{
+      "name": "SuperNode",
+      "script" : "./src/server.js",
+      "env": {
+        "NODE_PATH": "src",
+        "EX": "SUPER"
+      }
+    }]
+  }

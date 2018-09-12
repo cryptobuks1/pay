@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "젠트리온 지갑",
+    "description": "젠트리온 모바일 지갑",
+    "slug": "gentrion-wallet",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "2.4.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gentrion.mwallet"
+    },
+    "android": {
+      "package": "com.gentrion.mwallet",
+      "versionCode": 1001
+    }
+  }
+}

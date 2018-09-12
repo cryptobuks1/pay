@@ -32,10 +32,7 @@ Before you begin you'll need to have Node.js v8 installed. There are several opt
 2. Clone the project from the github repository
 
     ```
-    git clone git@github.com:gentrion/account.git
-    git clone git@github.com:gentrion/explorer.git
-    git clone git@github.com:gentrion/blockchain-node.git
-    git clone git@github.com:gentrion/mobile-wallet.git
+    git clone git@github.com:gentrion/pay.git
     ```
 3. Install local dependencies
 

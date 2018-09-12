@@ -1,0 +1,10 @@
+{
+    "apps": [{
+      "name": "ChainNode",
+      "script" : "./src/server.js",
+      "env": {
+        "NODE_PATH": "src",
+        "EX": "CHAIN"
+      }
+    }]
+  }

@@ -1,0 +1,45 @@
+{
+  "name": "GentrionAccount",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gentrion",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.191.0",
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "chalk": "^2.1.0",
+    "cli-progress": "^1.5.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^4.0.0",
+    "joi": "^10.6.0",
+    "jsonfile": "^4.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-router": "^7.2.1",
+    "koa-websocket": "^4.0.0",
+    "lzutf8": "^0.4.6",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.4",
+    "mongoose-double": "^0.0.1",
+    "shortid": "^2.2.8",
+    "striptags": "^3.1.1",
+    "zcash-bitcore-message": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "set NODE_PATH=src&nodemon --watch src/ src/index.js",
+    "server": "pm2 start deploy.config.json",
+    "reload:server": "pm2 reload deploy.config.json"
+  }
+}

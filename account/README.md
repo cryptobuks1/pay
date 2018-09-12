@@ -1,10 +1,9 @@
-# clan-backend
+# account-backend
 
 ## Stack
 - Node.js
   - Koa
   - Mongoose
-  - Websocket
-- MongoDB
+  - MongoDB
 
 > More information will be documented later on.

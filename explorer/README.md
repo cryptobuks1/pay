@@ -1,6 +1,6 @@
-# Nomadcoin Blockchain Explorer
+# Gentrion Blockchain Explorer
 
-This is the Blockchain Explorer for Nomadcoin.
+This is the Blockchain Explorer for Gentrion.
 
 Features:
 

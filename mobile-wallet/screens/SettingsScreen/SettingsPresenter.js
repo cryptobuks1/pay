@@ -3,16 +3,7 @@ import { View, StyleSheet, Text, Alert,
     TextInput,
     ScrollView,
     TouchableOpacity, AsyncStorage, Clipboard } from "react-native";
-// import PKeyItem from "./PKeyItem";
 import axios from 'axios';
-//import {encryptKey} from "../../components/CryptoKey";
-//const EC = require("elliptic").ec;
-//const ec = new EC("secp256k1");
-
-// const URL_UserPatch = "http://clanapi.softchips.info/production-volume";
-// const URL_CoinCharge = "http://full.gentrion.net/ac-create";
-// const URL_FullBalance = "http://full.gentrion.net/me/balance";
-// const AdminEmail = 'ceo@gentrion.net';
 
 export default class SettingsPresenter extends React.Component {
   static navigationOptions = {

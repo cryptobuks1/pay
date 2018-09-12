@@ -14,15 +14,6 @@ import {
 } from 'react-native';
 import { BarCodeScanner, Permissions, LinearGradient, Icon } from 'expo';
 import axios from 'axios';
-// import { Ionicons } from '@expo/vector-icons';
-// <Ionicons name="md-checkmark-circle" size={32} color="green" />
-
-// FULL Node
-// const URL_UserBalance = "http://full.gentrion.net/ac-balance";
-
-// const URL_CoinSend = "http://full.gentrion.net/ac-send";
-// CLAN API
-// const URL_QR_info = "http://clanapi.softchips.info/api/clan/qr/info/";
 
 export default class HomePresenter extends React.Component {
   static navigationOptions = {

@@ -8,8 +8,6 @@ import { View, StyleSheet, Text, Alert,
 import QRCode from 'react-native-qrcode';
 import axios from 'axios';
 
-// const URL_QR_register = "http://clanapi.softchips.info/api/clan/qr/register";
-
 export default class RecivePresenter extends React.Component {
   static navigationOptions = {
     title: 'QR 코드',

@@ -14,7 +14,6 @@ export default class LinksPresenter extends React.Component {
   };
 
   state = {
-    // callHistory: true,
     sendIndex: 0,
     recvIndex: 0
   };
@@ -27,9 +26,6 @@ export default class LinksPresenter extends React.Component {
     }
   };
   componentWillUnmount = () => {
-    // this.setState({
-    //     callHistory: false
-    // });
   };
   componentWillReceiveProps(nextProps) {
     const currentProps = this.props;

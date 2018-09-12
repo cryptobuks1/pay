@@ -9,7 +9,6 @@ import {
 import PropTypes from "prop-types";
 import moment from 'moment';
 import 'moment-timezone';
-//import * as moment from "moment-timezone";
 
 export default class LinkItem extends Component {
   constructor(props) {

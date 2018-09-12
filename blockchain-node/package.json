@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Gentrion Cryptocurrency",
   "main": "src/server.js",
-  "repository": "https://github.com/gentrion/blockchain-node",
+  "repository": "https://github.com/gentrion/pay",
   "author": "gentrion <gentrion@gmail.com>",
   "license": "MIT",
   "private": false,

@@ -1,10 +1,10 @@
 # GENTRION
-[Gentrion](https://gentrion.io/) is Infrastructure to build cryptocurrency and blockchain-based applications for the next generation of financial technology.
+[Gentrion](https://gentrion.io/) is an infrastructure to build cryptocurrency and blockchain-based applications for the next-generation financial 
 
 ## Core Technology
 
-It was developed using the Zcash, Bitcore, and Nomad Coin modules in the Node.JS environment.
-Following technologies are used in this project (some are omitted)
+It is developed using Zcash, Bitcore, and Nomad Coin modules under Node.JS environment.
+The following technologies are used in this project (some are omitted)
 - Node.js
 - React.js
 - Koa
@@ -17,7 +17,7 @@ Following technologies are used in this project (some are omitted)
 
 ## Getting started
 
-Before you begin you'll need to have Node.js v8 installed. There are several options for installation. One method is to use nvm to easily switch between different versions, or download directly from Node.js.
+Before you begin, you'll need to have Node.js v8 installed. There are several options for installation. One method is to use nvm to easily switch between different versions, or download directly from Node.js.
 
 
 ### Installing
@@ -36,7 +36,7 @@ Before you begin you'll need to have Node.js v8 installed. There are several opt
     ```
 3. Install local dependencies
 
-    Project for the client and the server separated in two different directories. 
+    The client and server projects are each stored in their respective directories.
     ```
     cd account
     npm install
@@ -47,7 +47,7 @@ Before you begin you'll need to have Node.js v8 installed. There are several opt
     cd ../mobile-wallet
     npm install
     ```
-4. Input the values for the envioronment variables.
+4. Customize the environment variables.
 
     ```
     account/.env
@@ -56,7 +56,7 @@ Before you begin you'll need to have Node.js v8 installed. There are several opt
 
 ### Development
 
-For the development environment, you have to run two kind of scripts.
+For the development environment, you have to run two kinds of scripts.
 
 1. `npm run dev` from **account**  (*MongoDB must be installed.)
 2. `npm start` from **explorer**

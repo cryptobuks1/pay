@@ -1,5 +1,5 @@
 # GENTRION
-[Gentrion](https://gentrion.io/) is an infrastructure to build cryptocurrency and blockchain-based applications for the next-generation financial 
+[Gentrion](http://gentrion.org/) is an infrastructure to build cryptocurrency and blockchain-based applications for the next-generation financial 
 
 ## Core Technology
 
